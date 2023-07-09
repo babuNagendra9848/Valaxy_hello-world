@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-           git credentialsId: 'GurusGhub', url: 'https://github.com/GurusGhub/Valaxy_hello-world.git'
+           git credentialsId: 'babuNagendra', url: 'https://github.com/babuNagendra9848/Valaxy_hello-world.git'
             }
         }
         stage("Maven Build"){
